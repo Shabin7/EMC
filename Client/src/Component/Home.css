@@ -1,0 +1,58 @@
+.dropdown-item:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+:root{
+    --primary-color: #0a1118;
+    --primary-color-highlight: #233d54;
+    --bs-body-bg: #FBF0f6;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+html{scroll-behavior: smooth;}
+
+/* Hero Section */
+.hero{
+    position: relative;
+    height: 90vh;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+@media (min-width: 1400px){
+    .hero__heading{
+        font-size: 3.2rem;
+    }
+}
+.hero__picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%); 
+}
+.hero__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    z-index: 1;
+}
+.hero__content{
+    z-index: 1;
+}
+.hero__content-width{
+    max-width: 540px;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);        
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}

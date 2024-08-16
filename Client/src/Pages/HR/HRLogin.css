@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #fff;
+}
+
+.bg-holder{
+    background-image: url(../../img/Keyboard.jpg);
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn{
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 100%;
+}

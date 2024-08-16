@@ -1,0 +1,51 @@
+#sidebarMenu{
+    min-height: 100vh;
+    /* margin-left: -15rem; */
+    transition: margine 0.25 ease-out;
+}
+
+#sidebarMenu .list-group{
+    width: 15rem;
+}
+.list-group-item{
+    border: none;
+    padding: 20px 30px;
+}
+
+.list-group-item.active{
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+}
+button{
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+:root{
+    --main-bg-color: #009d63;
+    --main-text-color: #009d63;
+    --second-text-color: #bbbec5;
+    --second-bg-color: #c1efde;
+}
+
+.primary-text{
+    color: var(--main-text-color);
+}
+
+.second-text{
+    color: var(--second-text-color);
+}
+
+.primary-bg{
+    color: var(--main-bg-color);
+}
+
+.secondary-bg{
+    color: var(--second-bg-color);
+}
+
+.rounded-full{
+    border-radius: 100%;
+}
